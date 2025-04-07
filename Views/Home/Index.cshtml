@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to EventEase</h1>
+	<p>This is the platform where you plan and manage events with ease.<br />
+        No need to worry about double booking.<br /> 
+        Our systems takes care of that with ease.<br />
+        With the ability to easily view which venues are available and a booking process with no relevent struggles.<br />
+        Everything done smoothly and is easily accessible and easy to then navigate.<br />
+        Here we allow you to make event management stress free.</p>
+
+        <div class="mt-4">
+            <a asp-controller="Venue" asp-action="Index" class="btn btn-primary">View Venues</a>
+            <a asp-controller="Event" asp-action="Index" class="btn btn-primary">Manage Events</a>
+            <a asp-controller="Booking" asp-action="Index" class="btn btn-primary">Upcoming Bookings</a>
+        </div>
+</div>
